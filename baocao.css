@@ -1,0 +1,756 @@
+﻿body{
+    margin:0px;
+}
+
+header{
+    width:100%;
+    height:120px;
+    background-color:#2E9ED5;
+    display:flex;
+
+}
+.logo {
+    width: 20%;
+    height: 75px;
+    padding: 25px 25px 50px 100px;
+}
+.formtimkiem{
+    width:25%;
+    height:40px;
+    padding:25px 50px 0px 50px;
+}
+#timkiem{
+    width:100%;
+    height:40px;
+    
+}
+#logo1 {
+    width: 100%;
+    height: 75px;
+    
+}
+#logo2{
+    width:75px;
+    height:75px;
+    padding:25px 0px 0px 100px;
+}
+#logo3 {
+    width: 200px;
+    height: 50px;
+    padding: 20px 0px 0px 50px;
+}
+.dangnhap{
+    width:100px;
+    height:20px;
+    border-style:inset;
+    border-color:white;
+    color:white;
+    margin:50px 0px 0px 50px;
+    border-radius:10px;
+}
+.frmdangnhap{
+    width:30%;
+    height:330px;
+    margin:20px auto 20px auto;
+    
+    border-style:solid;
+    border-color:gray;
+    border-radius:5px;
+    display:block;
+}
+.input1 {
+    width: 80%;
+    height: 30px;
+    border-radius: 25px;
+    border-color: #2CBDE5;
+    margin:20px 0px 0px 45px;
+}
+#btndangnhap {
+    width: 50%;
+    height: 30px;
+    border-radius: 25px;
+    border-color: gray;
+    margin: 20px auto auto 120px;
+    background-color: #2CBDE5;
+    color:white;
+}
+#btndangki {
+    width: 50%;
+    height: 30px;
+    border-radius: 25px;
+    border-color: gray;
+    margin: 20px auto auto 120px;
+    background-color: orangered;
+    color: white;
+}
+.xinchao{
+    text-align:center;
+}
+nav{
+    width:100%;
+    height:70px;
+    background-color:#2CBDE5;
+    margin:0px 0px 0px 0px;
+    display:flex;
+}
+.danhmuc {
+    background-color: #0073A0;
+    width: 20%;
+    height: 35px;
+    margin: 0px 0px 0px 100px;
+    color: white;
+    font-family: Helvetica;
+    font-size: 25px;
+    text-align:center;
+    padding:16px 0px 17px 0px;
+    
+}
+.home{
+    
+    width:100%;
+    height:375px;
+    display:flex;
+}
+.ds1 {
+    width: 22%;
+    height: 375px;
+    
+    margin: 0px 0px 0px 100px;
+    
+}
+#list1{
+    list-style:none;
+    margin:0px;
+    width:100%;
+    padding:0px 0px 0px 0px;
+
+}
+    #list1 li {
+        width: 100%;
+        height: 75px;
+        background-color: whitesmoke;
+        font-family: Helvetica;
+        
+    }
+
+a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+#list1 li:hover{
+    background-color:aqua;
+    transition:1s ease-in-out;
+    
+}
+.icon1{
+    margin:0px 30px 0px 0px;
+    width:40px;
+    height:40px;
+}
+.hinhanh1{
+    width:70%;
+    height:100%;
+    
+    margin:0px 150px 0px 1px;
+    display:flex;
+}
+.ha1{
+    width:60%;
+    
+    height:375px;
+    margin:0px 0px 0px 0px;
+}
+.ha1:hover{
+    width:100%;
+    
+}
+.ha2 {
+    width: 50%;
+    
+    height: 375px;
+    margin: 0px 0px 0px 0px;
+    display:block;
+}
+.ha22{
+    width:100%;
+    height:175px;
+    border-radius:10px;
+    margin:10px 0px 10px 10px;
+    
+}
+.ha11 {
+    width: 100%;
+    height: 375px;
+}
+.ha222 {
+    width: 100%;
+    height: 175px;
+}
+.ha222:hover{
+    width:120%;
+    height:175px;
+}
+.tieude {
+    display: flex;
+    margin: 30px 0px 0px 0px;
+    color: #F23611;
+    font-family: Helvetica;
+    width: 100%;
+    height: 35px;
+    background-color: #FFD6BA;
+    padding: 10px 0px 10px 0px;
+    text-indent: 20px;
+}
+#goiyy {
+    margin:0px 0px 0px 0px;
+    color: #F23611;
+    font-family: Helvetica;
+    width: 60%;
+    height: 35px;
+    background-color: #FFD6BA;
+    padding: 0px 0px 0px 0px;
+    text-indent: 20px;
+    
+}
+#clock {
+    margin: 0px 0px 0px 0px;
+    color: #F23611;
+    font-family: Helvetica;
+    width: 40%;
+    height: 35px;
+    background-color: #FFD6BA;
+    padding: 0px 0px 0px 0px;
+    text-indent: 20px;
+}
+
+.phong {
+    width: 60%;
+    height: 35px;
+    margin: 0px 150px 0px 50px;
+    color: yellow;
+    font-family: Helvetica;
+    font-size: 25px;
+    text-align: center;
+    padding: 16px 0px 17px 0px;
+}
+.goiy{
+    background-color:#FFF2E8;
+    width:96%;
+    height:340px;
+    display:flex;
+    margin:30px 0px 30px 2%;
+    overflow:auto;
+    
+}
+.goiy1{
+    margin:0px 0px 0px 20px;
+    width:200px;
+    height:180px;
+}
+.anhgoiy{
+    width:16%;
+    height:250px;
+    border-style:inset;
+    border-color:aqua;
+    margin:2% 2%  2% 2%;
+}
+.anhgoiy:hover {
+    opacity: 0.8;
+}
+#bia1{
+    width:80%;
+    height:300px;
+    border-radius:10px;
+    margin:30px 0px 0px 125px;
+}
+.camon{
+    display:flex;
+    margin:0px 0px 100px 0px;
+}
+.camon1{
+    margin:0px 0px 0px 0px;
+    width:20%;
+    height:300px;
+}
+.camon11{
+    width:100%;
+    height:300px;
+}
+.txtgoiy {
+    text-align: center;
+    font-family: Helvetica;
+    color:black;
+}
+.gia{
+    display:flex;
+}
+.gia2{
+    color:gray;
+}
+footer{
+    width:100%;
+    height:200px;
+    background-color:#E3E3E3;
+    margin:0px 0px 0px 0px;
+    display:flex;
+}
+.flogo{
+    width:200px;
+    height:50px;
+    margin:50px 0px 0px 125px;
+}
+#flogo1 {
+    width: 200px;
+    height: 50px;
+    
+}
+.thongtin{
+    margin:0px 0px 0px 100px;
+}
+.chinh1{
+    width:80%;
+    height:500px;
+    
+    margin:10px 0px 10px 100px;
+    display:flex;
+}
+.trai1{
+    width:40%;
+    height:500px;
+    background-color:black;
+}
+.phai1{
+    width:60%;
+    height:500px;
+    margin:0px 0px 0px 25px;
+    
+}
+.giamgia{
+    color:red;
+    font-size:30px;
+
+}
+.mua{
+    background-color:orange;
+    color:white;
+    width:100px;
+    height:50px;
+
+}
+.mota1{
+    font-size:20px;
+    margin:10px 125px 0px 125px;
+    text-align:left;
+}
+.mota2 {
+    font-size: 30px;
+    font-weight:200;
+    margin: 10px 125px 10px 125px;
+}
+.fb1 {
+    width: 80%;
+    height: 500px;
+    margin: 10px 0px 10px 100px;
+    
+}
+.camket {
+    width: 80%;
+    height: 300px;
+    margin: 10px 0px 10px 100px;
+}
+@media only screen and (max-width:740px) {
+    header {
+        width: 100%;
+        height: 180px;
+        background-color: #2E9ED5;
+        display:block;
+    }
+
+    .logo {
+        width: 50%;
+        height: 25px;
+        margin:0px 0px 0px 50px;
+    }
+
+    .formtimkiem {
+        width: 80%;
+        height: 40px;
+        margin:0px auto;
+        border-radius:15px;
+        border-style:hidden;
+    }
+
+    #timkiem {
+        width: 100%;
+        height: 40px;
+        border-radius:15px;
+    }
+
+    #logo1 {
+        width: 100%;
+        height: 75px;
+        
+        
+    }
+
+
+    
+
+    #logo3 {
+        width: 200px;
+        height: 50px;
+        padding: 20px 0px 0px 50px;
+        display:none;
+    }
+
+    .dangnhap {
+        width: 50px;
+        height: 40px;
+        border-style: inset;
+        border-color: white;
+        color: white;
+        margin: -160px 0px 0px 88%;
+        border-radius: 10px;
+       
+    }
+
+    
+
+    
+
+    nav {
+        width: 100%;
+        height: 70px;
+        background-color: #2CBDE5;
+        margin: 0px 0px 0px 0px;
+        display: flex;
+        display:none;
+    }
+
+    .danhmuc {
+        background-color: #0073A0;
+        width: 20%;
+        height: 35px;
+        margin: 0px 0px 0px 100px;
+        color: white;
+        font-family: Helvetica;
+        font-size: 25px;
+        text-align: center;
+        padding: 16px 0px 17px 0px;
+        
+    }
+
+    .home {
+        width: 100%;
+        height: 280px;
+        display: block;
+    }
+
+    .ds1 {
+        width: 100%;
+        height: 100px;
+        margin: 0px 0px 0px 0px;
+        display: flex;
+    }
+
+    #list1 {
+        list-style: none;
+        margin: 0px;
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+        display:flex;
+    }
+
+        #list1 li {
+            width: 15%;
+            height: 75px;
+            background-color: whitesmoke;
+            font-family: Helvetica;
+            font-size:9px;
+            margin:10px 2.5% 10px 2.5%;
+            display:block;
+
+            
+        }
+
+    .icon {
+        color: black;
+        text-decoration:auto;
+        background-color: transparent;
+        display:block;
+        
+        
+    }
+
+
+    
+
+    .icon1 {
+        margin: 0px 0px 0px 0px;
+        width: 50px;
+        height: 50px;
+        margin:0px  0px 0px 10px;
+
+    }
+
+    .hinhanh1 {
+        width: 100%;
+        height: 50px;
+        margin: 0px 0px 0px 0px;
+        display: flex;
+    }
+
+    .ha1 {
+        width: 100%;
+        
+        height: 50px;
+        margin: 0px 0px 0px 0px;
+        display:block;
+    }
+    .ha11 {
+        width: 100%;
+        height:200px;
+        border-radius:20px;
+    }
+
+        
+
+    .ha2 {
+        
+        display: none;
+    }
+    
+
+    
+
+    
+
+    
+    
+
+        
+
+    #goiyy {
+        margin: 0px 0px 0px 0px;
+        color: #F23611;
+        font-family: Helvetica;
+        width: 60%;
+        height: 35px;
+        background-color: #FFD6BA;
+        
+        text-indent: 20px;
+    }
+    .tieude {
+        margin: 30px 0px 0px 0px;
+        color: #F23611;
+        font-family: Helvetica;
+        width: 100%;
+        height: 35px;
+        background-color: #FFD6BA;
+        padding: 10px 0px 10px 0px;
+        text-indent: 20px;
+    }
+    
+
+    .phong {
+        width: 60%;
+        height: 35px;
+        margin: 0px 150px 0px 50px;
+        color: yellow;
+        font-family: Helvetica;
+        font-size: 25px;
+        text-align: center;
+        padding: 16px 0px 17px 0px;
+    }
+
+    .goiy {
+        background-color: #FFF2E8;
+        width: 100%;
+        height: 330px;
+        display: flex;
+        margin: 0px 0px 0px 0px;
+        overflow:auto;
+    }
+
+    .goiy1 {
+        margin: 0px 0px 0px 20px;
+        width: 200px;
+        height: 180px;
+    }
+
+    .anhgoiy {
+        width: 50%;
+        height: 250px;
+        border-style: inset;
+        border-color: aqua;
+        margin: 2% 2% 2% 2%;
+    }
+
+        .anhgoiy:hover {
+            opacity: 0.8;
+        }
+
+    #bia1 {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+        margin: 30px 0px 0px 0px;
+    }
+
+    .camon {
+       
+        margin: 10px 0px 0px 0px;
+        overflow:auto;
+        width:100%;
+        height:280px;
+    }
+    .camon1 {
+        width: 50%;
+        height: 250px;
+
+    }
+    .camon11{
+        width:250px;
+        height:250px;
+    }
+
+    
+    
+
+    .txtgoiy {
+        text-align: center;
+        font-family: Helvetica;
+        color: black;
+    }
+
+    .gia {
+        display: flex;
+    }
+
+    .gia2 {
+        color: gray;
+    }
+
+    footer {
+        width: 100%;
+        height: 350px;
+        background-color: #E3E3E3;
+        margin: 0px 0px 0px 0px;
+        display: block;
+    }
+
+    .flogo {
+        width: 50%;
+        height: auto;
+        
+    }
+    #flogo1 {
+        width: 100%;
+        height: auto;
+        margin: 30px auto 30px auto;
+    }
+
+    .thongtin {
+        margin: 0px 0px 0px 0px;
+    }
+    .frmdangnhap {
+        width: 80%;
+        height: 330px;
+        margin: 20px auto 20px auto;
+        border-style: solid;
+        border-color: gray;
+        border-radius: 5px;
+        display: block;
+    }
+
+    .input1 {
+        width: 80%;
+        height: 30px;
+        border-radius: 25px;
+        border-color: #2CBDE5;
+        margin: 20px 10% 0px ;
+    }
+
+    #btndangnhap {
+        width: 50%;
+        height: 30px;
+        border-radius: 25px;
+        border-color: gray;
+        margin: 20px auto auto 120px;
+        background-color: #2CBDE5;
+        color: white;
+    }
+
+    #btndangki {
+        width: 50%;
+        height: 30px;
+        border-radius: 25px;
+        border-color: gray;
+        margin: 20px auto auto 120px;
+        background-color: orangered;
+        color: white;
+    }
+
+    .xinchao {
+        text-align: center;
+    }
+    .chinh1 {
+        width: 100%;
+        height: 1000px;
+        margin: 10px 0px 10px 0px;
+        display: block;
+    }
+
+    .trai1 {
+        width: 100%;
+        height: 500px;
+        background-color: black;
+    }
+
+    .phai1 {
+        width: 100%;
+        height: 500px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .giamgia {
+        color: red;
+        font-size: 30px;
+    }
+
+    .mua {
+        background-color: orange;
+        color: white;
+        width: 200px;
+        height: 50px;
+        margin:0px 0px 0px 30%;
+    }
+
+    .mota1 {
+        font-size: 20px;
+        margin: 10px 5px 0px 5px;
+        
+    }
+
+    .mota2 {
+        font-size: 30px;
+        font-weight: 200;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .fb1 {
+        width: 100%;
+        height: 250px;
+        margin: 10px 0px 10px 0px;
+        overflow:auto;
+    }
+
+    .camket {
+        width: 100%;
+        height: 200px;
+        margin: 10px 0px 10px 0px;
+        
+    }
+}
+   
